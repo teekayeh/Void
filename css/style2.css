@@ -1,0 +1,393 @@
+ 
+/* THE VOID*/
+/* CSS */
+/* Refs from .... */
+/* Mighty Shaban | Batman nav | http://codepen.io/MightyShaban/pen/CIfdj */
+ /*Justin | WIP - Site Redesign | http://codepen.io/jmw/pen/emoJGR*/
+/* Mark Geyer | http://codepen.io/markgeyer/pen/yklLx */
+/* Tim Holman | http://codepen.io/tholman/pen/tldwm*/
+
+
+
+/* OVER ALL STYLES. */
+html, body {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+  font: serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/* TEXT */
+h1 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 30px;
+  line-height: 1.8;
+  font-family: 'Poiret One', cursive;
+  color: black;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Poiret One', cursive;
+}
+
+h5 {
+  font-size: 16px;
+  font-family: 'Poiret One', cursive;
+}
+
+p {
+  font-size: 17px;
+  margin-bottom: 20px;
+  line-height: 2;
+  color: white;
+}
+
+
+/*Default Links */
+a:link { 
+  color: white; 
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Poiret One', cursive;
+}
+
+a:visited { 
+  color: white;
+}
+
+a:hover { 
+  color: white;
+}
+
+a:active { 
+  color: white;
+}
+
+/* Header + Top Nav */
+.top_nav {
+  position: fixed; 
+  max-height: 70px;
+  z-index: 999;
+  width: 100%;
+  padding-top: 17px;
+  background: none;
+  overflow: hidden;
+  -webkit-transition: all 1s; /*Fades in nav bar */
+  transition: all 1s;
+  opacity: 0;
+  top: -100px; /* This notes when the nav opens */
+  padding-bottom: 8px;
+  font-family: sans-serif;
+}
+
+.open-nav {
+  max-height: 400px ;
+}
+
+.open-nav .mobile-toggle {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+
+.sticky {
+  background-color: rgba(0, 0, 0, 0.93);
+  opacity: 1;
+  top: 0px;
+}
+
+.logo {
+  width: 120px;
+  font-size: 25px;
+  color: #8f8f8f;
+  text-transform: uppercase;
+  float: left;
+  display: block;
+  margin-top: 10px;
+  line-height: 1;
+}
+
+nav {
+  float: right;
+  width: 60%;
+    margin-top: -5px;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+  text-align: right;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 35px;
+
+}
+
+nav ul a {
+  color: #888888;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.row {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 2%;
+}
+
+/* HEAD AREA*/
+
+.head {
+ /* color: #eaeaea;
+  background: black;*/
+   background-image: url(../images/void.jpg);
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.name {
+  width: 500px;
+  top: 40%;
+  position: absolute;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -20px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 25px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.name a {
+  color: white; 
+  font-weight: normal;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Nav 2 */
+.Nav2 {
+    text-align:center;
+    list-style-type:none;
+    /*border: 2px solid red;*/ 
+    width: 500px;
+    top: 47%;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: 40px;
+}
+
+.Nav2 ul {
+  margin: 0;
+  padding-left: 0;
+  text-align: center;
+
+}
+
+.Nav2 ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.Nav2 ul a {
+    text-decoration: none;
+    text-align:center;
+    padding:0 1em;
+    color: white;
+}
+
+
+
+/* MAIN */
+main {
+    background: #fff;
+    border-radius: 0 5px 5px 5px;;
+    padding: 40px;
+}
+
+main .content {
+    padding: 30px 10px 30px 10px;
+    border-radius: 0 5px 5px 5px;
+    background: #eee;
+    max-width: 900px;
+    margin: auto;
+}
+
+main .content li {
+    border-radius: 5px;
+    padding: 3px;
+    background: #eff;
+    margin: 0 0 10px 0;
+}
+
+main .content button {
+  font-weight: bold;
+  padding: 0 3px 0 3px;
+  border-radius: 5px;
+  background: #ccc;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 1.3em;
+}
+
+main .content h1 {
+  padding-left: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+main .content input {
+    font-size: 1.5em;
+}
+
+
+
+/* FOOTER */
+
+footer .container {
+  max-width: 925px;
+  margin: auto;
+
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    padding: 20px 0 40px 0;
+    margin-bottom: 10%;
+}
+
+footer .sitemap {
+    float: left;
+    width: 285px;
+}
+
+footer ul {
+    width: 230px;
+}
+
+li {
+    list-style: none;
+    padding-top: 5px;
+}
+
+footer .sitemap .left {
+    float: left;
+}
+
+footer .sitemap .right {
+    float: right;
+}
+
+
+
+/* @ MEDIA */
+
+
+@media only screen and (max-width: 766px) {
+
+
+.Nav2 ul {
+    padding-top: 10px;
+    margin-bottom: 22px;
+    float: left;
+    text-align: center;
+    width: 100%;
+  }
+
+  .Nav2 ul li {
+    width: 100%;
+    padding: 7px 0;
+    margin: 0;
+  }
+
+  footer h5 {
+    text-align: center;
+  }
+
+  footer .{
+  padding-left: 20px;
+
+  }
+ 
+ footer .sitemap .right {
+  padding-right: 10%;
+}
+
+footer .sitemap .left {
+  padding-bottom: 20px;
+}
+  .zeroOne .content .zeroWords h1 {
+  color: white; 
+  font-family: 'Quicksand', sans-serif;
+  padding-left: 0%;
+}
+
+
+}
+
+@media only screen and (max-width: 766px) {
+
+  .name {
+    width: 500px;
+    top: 40%;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -30px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 25px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+  }
+
+}
+
+@media only screen and (max-width: 540px) {
+
+  nav {
+    float: left;
+    width: 30%;
+    margin-top: -10px;
+  }
+
+  nav ul {
+    list-style: none;
+    overflow: hidden;
+    float: right;
+  }
+
+  nav ul li {
+    display: inline-block;
+
+  }
+
+  nav ul a {
+    color: #888888;
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+
+}

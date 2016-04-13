@@ -1,0 +1,287 @@
+/* Section 01 */
+.zeroOne {
+  background-image: url(../images/void.jpg);
+  height: 100%;
+  width: 100%;
+  position: relative;
+  color: white;
+}
+
+.zeroOne .content  {
+    padding: 30px 10px 30px 10px;
+    border-radius: 0 5px 5px 5px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.zeroOne .content  {
+  color: white;
+  padding-left: 40px;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 20px;
+}
+
+.zeroOne .content .zeroWords {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.zeroOne .content .zeroWords h1 {
+  color: white;
+  padding-left: 40%; 
+  font-family: 'Quicksand', sans-serif;
+}
+.sec01 {
+  width: 500px;
+  position: absolute; 
+  left: 50%;
+  margin-left: -250px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.zeroOne .content div {
+  padding-top: 5%;
+
+}
+
+.zeroOne .content .zeroWords .words {
+  padding-top: 0%;
+}
+
+
+
+/* Section 02 */
+
+.zeroTwo {
+  background-image: url(../images/void.jpg);
+  height: 100%;
+  width: 100%;
+  /*position: relative;*/
+  color: white;
+}
+
+.zeroTwo .content  {
+  padding: 10px 10px 10px 10px;
+  border-radius: 0 5px 5px 5px;
+  max-width: 900px;
+  margin: auto;
+  color: white;
+  padding-left: 40px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.zeroTwo .content .zeroWords {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.zeroTwo .content .zeroWords h1 {
+  color: white;
+  padding-left: 40%; 
+  font-family: 'Quicksand', sans-serif;
+}
+
+.comment {
+  padding-top: 5%;
+  width: 70%;
+  margin: auto;
+}
+
+.comment p {
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.50);
+}
+
+.sec02 {
+  width: 500px;
+  position: absolute; 
+  left: 50%;
+  margin-left: -250px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+
+/* Section 03 */
+.zeroThree {
+  background-image: url(../images/void.jpg);
+  height: 100%;
+  width: 100%;
+  position: relative;
+  color: white;
+}
+
+.zeroThree .content  {
+    padding: 30px 10px 30px 10px;
+    border-radius: 0 5px 5px 5px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.zeroThree .content  {
+  color: white;
+  padding-left: 40px;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 20px;
+}
+
+.zeroThree .content .zeroWords {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.zeroThree .content .zeroWords h1 {
+  color: white;
+  padding-left: 40%; 
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 190px;
+}
+
+.zeroThree .content .zeroWords a {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+}
+
+.zeroThree .content .zeroWords #submit {
+margin-top: 10px;
+}
+
+.comment-input {
+/*  width: 90%;
+  margin: auto;*/
+  padding-top: 5%;
+  width: 90%;
+  margin: auto;
+  color: white;
+  padding-left: 120px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.comment-input p {
+  margin-bottom: 10px;
+}
+
+.comment-input input {
+  width: 80%;
+  height: 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+  background:black;
+  color: white;
+  padding-left: 10px;
+}
+
+.comment-input button {
+  font-weight: bold;
+  padding: 3px;
+  border-radius: 5px;
+  color: ivory;
+  background-color: rgba(153, 102, 153, 0.50);
+  cursor: pointer;
+  font-size: 1.5em;
+  margin-left: 33%;
+}
+
+
+/* SCROLL BAR */
+.scrollbar {
+  margin-left: 22px;
+  /*float: left;*/
+  height: 300px;
+  /*width: 500px;*/
+  /*background: #F5F5F5;*/
+  background-color: rgba(153, 102, 153, 0.50);
+  overflow-y: scroll;
+  margin-bottom: 25px;
+
+  width: 80%;
+  /*height: 30px;*/
+ /* font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+  padding-left: 10px;*/
+}
+
+.force-overflow {
+  min-height: 450px;
+}
+
+#style-1::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #555;
+}
+
+#gallery {
+  padding: 0 20px; 
+}
+
+
+
+/* @ MEDIA */
+
+@media only screen and (max-width: 766px) {
+
+  .zeroOne .content .zeroWords h1 {
+    color: white; 
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 0%;
+  }
+
+  .zeroTwo .content .zeroWords h1 {
+    color: white; 
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 0%;
+  }
+
+  .zeroThree .content .zeroWords h1 {
+    color: white; 
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 0%;
+  }
+
+
+.comment-input {
+  padding-top: 5%;
+  width: 90%;
+  margin: auto;
+  color: white;
+  padding-left: 12px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.comment-input #submit {
+
+  margin: auto;  
+
+}
+
+
+@media only screen and (max-width: 300px) {
+
+  .comment {
+    padding-top: 80%;
+    width: 70%;
+    margin: auto;
+  }
+
+}

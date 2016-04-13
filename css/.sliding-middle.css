@@ -1,0 +1,49 @@
+
+/****** Sliding-middle-out class referenced from 
+http://bradsknutson.com/blog/css-sliding-underline/
+*******/
+
+
+.sliding-middle-out {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+
+.sliding-middle-out:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+
+.sliding-middle-out:hover:after {
+	width: 100%;
+	background: white;
+}
+
+.sliding-middle-out2 {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+	color: #885ead;
+}
+
+.sliding-middle-out2:after {
+	content: '';
+	color: #885ead;
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+
+.sliding-middle-out2:hover:after {
+	width: 100%;
+	background: #885ead;
+}
